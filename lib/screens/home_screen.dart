@@ -12,7 +12,17 @@ class HomeScreen extends StatelessWidget{
           style: TextStyle(
             fontSize: 20.0,
             fontWeight: FontWeight.bold,
-
+          ),
+        ),
+        backgroundColor: Colors.blueAccent,
+        automaticallyImplyLeading: true, // Remove o botão de voltar
+      ),
+      body: const Center(
+        child: Text(
+          'Login efetuado com sucesso!',
+          style: TextStyle(
+            fontSize: 24,
+            fontWeight: FontWeight.bold,
           ),
         ),
       ),
